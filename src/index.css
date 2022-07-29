@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer base {
+  "[type='text']",
+  "[type='email']",
+  "[type='url']",
+  "[type='password']",
+  "[type='number']",
+  "[type='date']",
+  "[type='datetime-local']",
+  "[type='month']",
+  "[type='search']",
+  "[type='tel']",
+  "[type='time']",
+  "[type='week']",
+  "[multiple]",
+  textarea,
+  select {
+    @apply border-2 border-orange-400 mb-4 p-16 placeholder:capitalize rounded-lg;
+  }
+} */
+
 .center {
   @apply flex items-center justify-center h-screen bg-gray-100;
 }
@@ -12,8 +32,18 @@
   @apply text-cyan-500 text-3xl font-bold;
 }
 .area_definer {
-  @apply w-full max-w-screen-lg m-0 mx-auto px-16;
+  @apply w-full max-w-screen-xl m-0 mx-auto px-16;
 }
 .flex-center {
   @apply flex items-center justify-between;
+}
+.btn {
+  @apply capitalize outline-none text-sm font-bold py-2 px-6 rounded-lg;
+}
+.globe {
+  @apply text-center text-responsite-text text-sky-400 px-8 mt-8 leading-snug tracking-wider;
+  font-variant-caps: small-caps;
+}
+.form-input {
+  @apply border-none border-gray-400 p-2 rounded-lg focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full placeholder:capitalize;
 }

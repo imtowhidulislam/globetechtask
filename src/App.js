@@ -1,11 +1,21 @@
 import React from "react";
 import "./App.css";
-import { Practice, Form, Navbar, HomePage } from "./components/index";
+import {
+  Practice,
+  Form,
+  Navbar,
+  HomePage,
+  Cards,
+  CardData,
+} from "./components/index";
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <Form />
+      {/* <HomePage /> */}
+      {/* <Cards /> */}
+      {/* <CardData /> */}
     </div>
   );
 }
