@@ -5,3 +5,4 @@ export { default as HomePage } from "./homePage";
 export { default as Header } from "./header";
 export { default as Cards } from "./cards";
 export { default as CardData } from "./cardData";
+export { default as CardWithLogoData } from "./cardWithLogoData";

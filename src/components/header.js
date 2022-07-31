@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import planet from "../assets/planet2.png";
 import { faShuttleSpace } from "@fortawesome/free-solid-svg-icons";
-import "./circle.css";
-import "./plane.css";
+import "../styles/circle.css";
+import "../styles/plane.css";
 const Header = () => {
   const [hover, setHover] = useState(true);
   const [isHover, setIsHover] = useState(false);
