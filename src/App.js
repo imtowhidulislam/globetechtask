@@ -12,8 +12,8 @@ import {
 function App() {
   return (
     <div>
-      <Form />
-      {/* <HomePage /> */}
+      {/* <Form /> */}
+      <HomePage />
       {/* <Cards /> */}
       {/* <CardData /> */}
     </div>

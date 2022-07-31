@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2394.9 2038.5" style="enable-background:new 0 0 2394.9 2038.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:#64E7FF;stroke-width:13;stroke-miterlimit:10;}
+	.st2{fill:#063000;}
+	.st3{fill:#FF59C0;}
+	.st4{fill:#13EBE2;}
+	.st5{fill:#C4BE3F;}
+	.st6{fill:#C4A63F;}
+	.st7{fill:#C4603F;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="901.2863" y1="1054.6722" x2="1536.3279" y2="993.2167">
+		<stop  offset="6.379911e-02" style="stop-color:#6AF0FF"/>
+		<stop  offset="9.207417e-02" style="stop-color:#63EFE7"/>
+		<stop  offset="0.2933" style="stop-color:#36EB42"/>
+		<stop  offset="0.3804" style="stop-color:#24E900"/>
+		<stop  offset="0.4327" style="stop-color:#30E70C"/>
+		<stop  offset="0.5284" style="stop-color:#4FE22D"/>
+		<stop  offset="0.6567" style="stop-color:#81DA63"/>
+		<stop  offset="0.811" style="stop-color:#C6CFAC"/>
+		<stop  offset="0.8783" style="stop-color:#E6CACE"/>
+	</linearGradient>
+	<ellipse class="st0" cx="1197.4" cy="1026" rx="225.9" ry="234.4"/>
+	<circle class="st1" cx="1197.4" cy="1019.2" r="449"/>
+	<ellipse class="st1" cx="1204.5" cy="1019.2" rx="642.4" ry="634.8"/>
+	<circle class="st1" cx="1197.4" cy="1019.2" r="844.9"/>
+</g>
+<rect x="491.6" y="-2678.5" class="st2" width="1125" height="2436"/>
+<rect x="491.6" y="-1460.5" class="st3" width="562.5" height="1218"/>
+<polygon class="st3" points="1616.6,-914.5 1616.6,-242.5 1054.1,-242.5 "/>
+<path class="st4" d="M1616.6-2678.5v991.9c-147,138.1-344.9,222.7-562.5,222.7s-415.5-84.6-562.5-222.7v-991.9H1616.6z"/>
+<polygon class="st2" points="1616.6,-2678.5 1616.6,-2539 1054.1,-1942.9 491.6,-2539 491.6,-2678.5 "/>
+<rect x="-571.8" y="292.3" class="st5" width="174.4" height="174.4"/>
+<rect x="-571.8" y="523.1" class="st6" width="174.4" height="174.4"/>
+<rect x="-571.8" y="753.8" class="st7" width="174.4" height="174.4"/>
+</svg>
