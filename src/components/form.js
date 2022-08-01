@@ -5,7 +5,7 @@ import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
 const Form = () => {
   return (
-    <div className="bg-blue-900 w-full h-screen flex ">
+    <div className="bg-blue-900 w-full h-calculated-height flex ">
       <div className="flex-layout1 flex justify-between py-16 flex-col ">
         <div>
           <h2 className="globe w-full">Globetech Company Limited</h2>
@@ -18,7 +18,7 @@ const Form = () => {
           icon={faLeftLong}
         />
       </div>
-      <div className="relative flex-layout2 bg-gray-300 flex items-center justify-center h-screen">
+      <div className="relative flex-layout2 bg-gray-300 flex items-center justify-center h-calculated-height">
         <form action="" className="bg-gray-100 w-80 py-8 px-4 drop-shadow-lg">
           <h2 className="capitalize text-center text-gray-700 text-xl mb-4">
             welcome
