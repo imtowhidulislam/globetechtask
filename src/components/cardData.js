@@ -9,9 +9,9 @@ import image6 from "../assets/image6.svg";
 import image7 from "../assets/image7.svg";
 import image8 from "../assets/image8.svg";
 
-const CardData = () => {
+const Carddata = () => {
   return (
-    <div className="bg-blue-800 py-12">
+    <div className="bg-blue-800 py-16">
       <div className="my-8">
         <h3 className="text-gray-200 text-center uppercase text-2xl font-bold">
           services
@@ -56,4 +56,4 @@ const CardData = () => {
   );
 };
 
-export default CardData;
+export default Carddata;

@@ -17,7 +17,6 @@ const Cards = ({ title, des, img }) => {
           <button className="btn bg-sky-500 text-gray-200">more</button>
         </div>
       </div>
-      <CardsWithLogo title={title} des={des} img={img} />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import { Navbar, Header } from "./index";
-
-const HomePage = () => {
+import Header from "./header";
+const Homepage = () => {
   let navSize = useRef(null);
   useEffect(() => {
     // const height = navSize.current.getBoundingClientRect();
@@ -11,11 +10,10 @@ const HomePage = () => {
   return (
     <div className="bg-blue-900 flex min-h-screen items-center justify-center snap-none">
       <div className=" area_definer" ref={navSize}>
-        <Navbar />
         <Header />
       </div>
     </div>
   );
 };
 
-export default HomePage;
+export default Homepage;

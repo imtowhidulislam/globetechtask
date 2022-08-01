@@ -17,7 +17,7 @@ const Header = () => {
     setHover(!hover);
   };
   return (
-    <div className=" flex mt-8 mb-8 items-center justify-center h-calculated-height ">
+    <div className=" flex mb-8 items-center justify-center h-calculated-height1 ">
       <div className="flex items-center justify-between gap-8">
         <div className="">
           <div className="main_plane_wrapper">
@@ -113,27 +113,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// {/* <img className="h-full object-cover w-full" src={planet} alt="" /> */}
-/*    <div className="h-full min-w-md rounded-lg flex items-center justify-center px-32 bottom-2 border-cyan-500">
-
-          <div className="border-2 relative border-cyan-300 p-16 rounded-full">
-            <div className=" top-12 w-11  circle-width bg-orange-200"></div>
-            <div className=" -bottom-3 left-1/2 w-5 circle-width bg-slate-200"></div>
-
-            <div className="border-2 relative border-cyan-300 p-16 rounded-full">
-              <div className="top-12 right-8 w-8 circle-width bg-pink-200"></div>
-              <div className="bottom-8 w-5 circle-width bg-orange-500"></div>
-
-              <div className="border-2 relative border-cyan-300 p-16 rounded-full">
-                <div className="top-28 -left-4 w-8 circle-width bg-pink-400"></div>
-                <div className="bottom-9 right-4 w-6 circle-width bg-green-500"></div>
-
-                <div className="bg-gradient-to-r from-yellow-500 to-orange-500 border-red-600 p-16 rounded-full">
-                  <div></div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */
