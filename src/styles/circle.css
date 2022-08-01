@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle3 {
+  width: 7rem;
+  aspect-ratio: 1/1;
+  background: linear-gradient(to left bottom, #ff66ff, #34ffaa);
+  border-radius: 50%;
+}
+.deep-inner-circle,
+.inner-circle,
+.outer-circle {
+  position: relative;
+  padding: 4rem;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.planet {
+  position: absolute;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+}
+/* Outer Circle */
+.out-planet1-open {
+  width: 2rem;
+  /* right: 3.2rem; */
+  background-color: aliceblue;
+  animation: outer-circle1-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.out-planet1-close {
+  width: 2rem;
+  /* right: 3.2rem; */
+  background-color: aliceblue;
+  animation: outer-circle1-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.out-planet2-open {
+  width: 3rem;
+  background-color: #ffffaa;
+  animation: outer-circle2-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.out-planet2-close {
+  width: 3rem;
+  background-color: #ffffaa;
+  animation: outer-circle2-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+
+/* Inner Circle */
+.inn-planet1-open {
+  width: 1.7rem;
+  background-color: #fffaaa;
+  animation: inner-planet1-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+  /* z-index: 10; */
+}
+.inn-planet1-close {
+  width: 1.7rem;
+  background-color: #fffaaa;
+  /* z-index: 10; */
+  animation: inner-planet1-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.inn-planet2-open {
+  width: 2.3rem;
+  background-color: #fffaaa;
+  z-index: 10;
+  animation: inner-planet2-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.inn-planet2-close {
+  width: 2.3rem;
+  background-color: #fffaaa;
+  z-index: 10;
+  animation: inner-planet2-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+/* Deeper Circle */
+.deep-planet-1 {
+  /* width: 1.7rem; */
+  /* background-color: #aacc33; */
+  /* transform: translate(2rem, -4.8rem); */
+  /* transform: translate(-4.5rem, 4.8rem); */
+}
+.deep-planet1-open {
+  width: 1.7rem;
+  background-color: #aacc33;
+  animation: deep-planet1-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.deep-planet1-close {
+  width: 1.7rem;
+  background-color: #aacc33;
+  animation: deep-planet1-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.deep-planet2-open {
+  width: 2rem;
+  background-color: #cbb9ef;
+  animation: deep-planet2-open 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+.deep-planet2-close {
+  width: 2rem;
+  background-color: #d0bdf5;
+  animation: deep-planet2-close 0.4s ease-in forwards;
+  transition: animation 0.3s ease-in;
+}
+/* outer Circle */
+@keyframes outer-circle1-open {
+  0% {
+    transform: translate(5rem, -4rem);
+  }
+  100% {
+    transform: translate(25rem, 4rem);
+  }
+}
+@keyframes outer-circle1-close {
+  0% {
+    transform: translate(25rem, 4rem);
+  }
+  100% {
+    transform: translate(5rem, -4rem);
+  }
+}
+@keyframes outer-circle2-open {
+  0% {
+    transform: translate(5rem, 25rem);
+  }
+  100% {
+    transform: translate(-5.5rem, 10rem);
+  }
+}
+@keyframes outer-circle2-close {
+  0% {
+    transform: translate(-5.5rem, 10rem);
+  }
+  100% {
+    transform: translate(5rem, 25rem);
+  }
+}
+
+/* inner Circle */
+@keyframes inner-planet1-open {
+  0% {
+    transform: translate(10rem, 18rem);
+  }
+  100% {
+    transform: translate(18.4rem, 8rem);
+  }
+}
+@keyframes inner-planet1-close {
+  0% {
+    transform: translate(18.4rem, 8rem);
+  }
+  100% {
+    transform: translate(10rem, 18rem);
+  }
+}
+@keyframes inner-planet2-open {
+  0% {
+    transform: translate(13.4rem, -3rem);
+  }
+  100% {
+    transform: translate(-4.4rem, 1.8rem);
+  }
+}
+@keyframes inner-planet2-close {
+  0% {
+    transform: translate(-4.4rem, 1.8rem);
+  }
+  100% {
+    transform: translate(13.4rem, -3rem);
+  }
+}
+
+/* deep inner Circle */
+
+@keyframes deep-planet1-open {
+  0% {
+    transform: translate(-4.5rem, 4.8rem);
+  }
+  100% {
+    transform: translate(2rem, -4.8rem);
+  }
+}
+@keyframes deep-planet1-close {
+  0% {
+    transform: translate(2rem, -4.8rem);
+  }
+  100% {
+    transform: translate(-4.5rem, 4.8rem);
+  }
+}
+@keyframes deep-planet2-open {
+  0% {
+    transform: translate(8.5rem, 7rem);
+  }
+  100% {
+    transform: translate(-3.5rem, 7rem);
+  }
+}
+@keyframes deep-planet2-close {
+  0% {
+    transform: translate(-3.5rem, 7rem);
+  }
+  100% {
+    transform: translate(8.5rem, 7rem);
+  }
+}

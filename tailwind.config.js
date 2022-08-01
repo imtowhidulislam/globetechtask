@@ -7,7 +7,7 @@ module.exports = {
         primary: "#f66f67",
       },
       gridTemplateColumns: {
-        "grid-cards": "repeat(auto-fit, minmax(15rem, 1fr))",
+        "grid-cards": "repeat(auto-fit, minmax(16rem, 1fr))",
       },
       fontSize: {
         "responsite-text": "clamp(1.2rem, 3vw, 3rem)",
