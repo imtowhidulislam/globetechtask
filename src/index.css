@@ -41,7 +41,7 @@
   @apply capitalize outline-none text-sm font-bold py-2 px-6 rounded-lg;
 }
 .globe {
-  @apply text-center text-responsite-text text-sky-400 px-8 mt-8 leading-snug tracking-wider;
+  @apply text-center text-responsite-text text-sky-400 px-4 lg:px-8 mt-8 leading-snug tracking-wider;
   font-variant-caps: small-caps;
 }
 .form-input {

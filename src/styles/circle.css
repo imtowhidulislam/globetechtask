@@ -7,7 +7,7 @@
 .circle3 {
   width: 7rem;
   aspect-ratio: 1/1;
-  background: linear-gradient(to left bottom, #ff66ff, #34ffaa);
+  background: linear-gradient(to left bottom, #f1d8f1, #363536);
   border-radius: 50%;
 }
 .deep-inner-circle,
@@ -15,7 +15,7 @@
 .outer-circle {
   position: relative;
   padding: 4rem;
-  border: 2px solid black;
+  border: 2px solid rgb(6, 238, 226);
   border-radius: 50%;
 }
 .planet {
@@ -101,13 +101,13 @@
 }
 .deep-planet2-open {
   width: 2rem;
-  background-color: #cbb9ef;
+  background-color: #5611df;
   animation: deep-planet2-open 0.4s ease-in forwards;
   transition: animation 0.3s ease-in;
 }
 .deep-planet2-close {
   width: 2rem;
-  background-color: #d0bdf5;
+  background-color: #5812e4;
   animation: deep-planet2-close 0.4s ease-in forwards;
   transition: animation 0.3s ease-in;
 }

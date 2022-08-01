@@ -8,7 +8,7 @@ const Form = () => {
     <div className="bg-blue-900 w-full h-screen flex ">
       <div className="flex-layout1 flex justify-between py-16 flex-col ">
         <div>
-          <h2 className="globe ">Globetech Company Limited</h2>
+          <h2 className="globe w-full">Globetech Company Limited</h2>
           <p className="text-gray-200 capitalize text-center text-sm space-x-4 mt-12 tracking-widest">
             Make yourself digitalized & more effecient
           </p>

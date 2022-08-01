@@ -5,6 +5,7 @@ import {
   Form,
   Navbar,
   Homepage,
+  Mainhome,
   Carddata,
   Cardwithlogodata,
 } from "./components/index";
@@ -13,7 +14,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Navbar />}>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Mainhome />} />
+        <Route path="/home" element={<Homepage />} />
         <Route path="carddata" element={<Carddata />} />
         <Route path="cardwithlogodata" element={<Cardwithlogodata />} />
         <Route path="form" element={<Form />} />

@@ -4,6 +4,7 @@ import planet from "../assets/planet2.png";
 import { faShuttleSpace } from "@fortawesome/free-solid-svg-icons";
 import "../styles/circle.css";
 import "../styles/plane.css";
+import PlaneLogo from "./planeLogo";
 const Header = () => {
   const [hover, setHover] = useState(true);
   const [isHover, setIsHover] = useState(false);
@@ -17,28 +18,15 @@ const Header = () => {
     setHover(!hover);
   };
   return (
-    <div className=" flex mb-8 items-center justify-center h-calculated-height1 ">
+    <div className=" flex mb-8 items-center justify-center h-calculated-height">
       <div className="flex items-center justify-between gap-8">
         <div className="">
-          <div className="main_plane_wrapper">
-            <div
-              className={`plane_container flex items-center justify-start gap-2 ${
-                isHover ? "plane_container-open" : "plane_container-close"
-              }`}
-            >
-              <div className="plane_bars">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-              <div className=" bg-transparent " onMouseEnter={handleLogo}>
-                <FontAwesomeIcon
-                  className="text-5xl text-gray-400 cursor-pointer"
-                  icon={faShuttleSpace}
-                ></FontAwesomeIcon>
-              </div>
-            </div>
-          </div>
+          <PlaneLogo
+            FontAwesomeIcon={FontAwesomeIcon}
+            faShuttleSpace={faShuttleSpace}
+            isHover={isHover}
+            handleMouse={handleMouse}
+          />
           <h2 className=" text-responsite-text-title text-transparent bg-clip-text bg-gradient-to-tr from-cyan-500 to-cyan-300 font-bold capitalize ">
             welcome to{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-yellow-200 ">

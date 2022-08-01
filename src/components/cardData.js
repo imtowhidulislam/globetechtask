@@ -11,7 +11,7 @@ import image8 from "../assets/image8.svg";
 
 const Carddata = () => {
   return (
-    <div className="bg-blue-800 py-16">
+    <div className="bg-blue-900 py-8">
       <div className="my-8">
         <h3 className="text-gray-200 text-center uppercase text-2xl font-bold">
           services

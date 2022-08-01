@@ -3,16 +3,19 @@ import { Outlet, Link } from "react-router-dom";
 import Globetech2 from "../assets/Globetech2.svg";
 const Navbar = () => {
   return (
-    <div>
-      <nav className="flex-center py-12 bg-blue-900 area_definer">
+    <div className="bg-blue-900">
+      <nav className="flex-center py-12  area_definer">
         <img
           className="w-32 cursor-pointer"
           src={Globetech2}
           alt="glob1etech-img"
         />
         <ul className="flex-center gap-4 text-gray-200">
-          <li className="capitalize">
-            <Link to="/">Home</Link>
+          <li>
+            <Link to="/">MainHome</Link>
+          </li>
+          <li>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <Link to="/carddata">Services</Link>
