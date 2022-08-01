@@ -33,7 +33,7 @@ const Header = () => {
               globetech
             </span>
           </h2>
-          <p className="my-8 max-w-md capitalize">
+          <p className="my-8 max-w-md capitalize text-cyan-500">
             we are committed to deliver{" "}
             <span className=" text-yellow-300 capitalize">best IT service</span>
             . our consultants have experience in working with clients. we have

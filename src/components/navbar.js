@@ -12,19 +12,29 @@ const Navbar = () => {
         />
         <ul className="flex-center gap-4 text-gray-200">
           <li>
-            <Link to="/">MainHome</Link>
+            <Link className="linkHover" to="/">
+              MainHome
+            </Link>
           </li>
           <li>
-            <Link to="/home">Home</Link>
+            <Link className="linkHover" to="/home">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/carddata">Services</Link>
+            <Link className="linkHover" to="/carddata">
+              Services
+            </Link>
           </li>
           <li>
-            <Link to="/cardWithLogoData">AllServices</Link>
+            <Link className="linkHover" to="/cardWithLogoData">
+              AllServices
+            </Link>
           </li>
           <li>
-            <Link to="/form">Contact</Link>
+            <Link className="linkHover" to="/form">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

@@ -32,8 +32,8 @@ const Cardwithlogodata = () => {
     setIsHover(!isHover);
   };
   return (
-    <div className="bg-blue-900 py-16">
-      <div className="main_plane_wrapper1 mb-20">
+    <div className="bg-blue-900 py-16 ">
+      <div className="main_plane_wrapper1 mb-20 ">
         <div
           className={`plane_container flex items-center justify-start gap-2 ${
             isHover ? "plane_container-close" : "plane_container-open"
